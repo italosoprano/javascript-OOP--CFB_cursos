@@ -1,0 +1,23 @@
+* {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.quadrado{
+    display: flex;
+}
+#q1{
+    background-color: #f00;
+    width: 150px;
+    height: 150px;
+}
+#q2{
+    background-color: #00f;
+    width: 100px;
+    height: 100px;
+}

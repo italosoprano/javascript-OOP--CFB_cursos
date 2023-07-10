@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OOP 62</title>
+</head>
+<body>
+    <div id="CriarCarro" class="CriarCarro">
+        <div class="campoForm">
+            <label for="f_nome">Nome</label>
+            <input type="text" name="f_nome" id="f_nome" value="">
+        </div>
+        <div class="campoForm">
+            <label for="">Portas</label>
+            <input type="number" name="f_portas" id="f_portas" value="0">
+        </div>
+        <div class="campoForm">
+            <label for="">Blindagem</label>
+            <input type="number" name="f_blindagem" id="f_blindagem" disabled value="0">
+        </div>
+        <div class="campoForm">
+            <label for="">Munição</label>
+            <input ype="number" name="f_municao" id="f_municao" disabled value="0">
+        </div>
+        <div class="campoForm">
+            <label for="">Tipo</label>
+            <div>
+                <input type="radio" name="f_tipo" id="f_tipoMilitar" value="m"> Militar 
+            </div>
+            <div>
+                <input type="radio" name="f_tipo" id="f_tipoNormal" value="n" checked> Normal
+            </div>
+        </div>
+        <div class="campoForma">
+            <button id="btn_addCarro">Adicionar</button>
+        </div>
+    </div>
+    <div class="carros">
+        <!-- <div class="carros>Golf</div>" -->
+    </div>
+    <script src="oop_62.js"></script>
+</body>
+</html>

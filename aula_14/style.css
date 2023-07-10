@@ -1,0 +1,50 @@
+* {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.calendario_div{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: #444;
+    color: #ffa500;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding: 10px;
+}
+.data_div{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: #444;
+    color: #f00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding: 10px;
+}
+.relogio_div {
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: #444;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding: 10px;
+}

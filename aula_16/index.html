@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CFB cursos</h1>
+    <!-- para cancelar o submit do input, que é o padrão por estar dentro de um formulario. onsubmit="event.preventDefault()" -->
+    <form onsubmit="event.preventDefault()">
+        <input type="url" name="url" id="url" placeholder="https://mamaminharola.com.br" pattern="https://." size="30" required>
+        <button id="btn_url">Enviar</button>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

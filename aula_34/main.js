@@ -1,0 +1,1 @@
+//js da página sem ser o head. 

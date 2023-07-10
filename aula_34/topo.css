@@ -1,0 +1,10 @@
+.topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    background-color: blue;
+}
+.logo p {
+    width: 200px;
+}
